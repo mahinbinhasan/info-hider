@@ -1,7 +1,7 @@
 print('Mahin Info Hider..')
-m = 'a'
+mode = 'a'
 filename = input('Enter the file name with extension\n\n==>')
-f = open(filename,m)
+f = open(filename,mode)
 
 tex = '\n\n'+input('Enter your Information\n\n==>')
 f.write(tex)
